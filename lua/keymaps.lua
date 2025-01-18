@@ -45,4 +45,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+-- Set up shortcut for neotree
+vim.keymap.set('n', '<leader>e', ':Neotree filesystem toggle left<CR>', { desc = 'Open file system at left' })
 -- vim: ts=2 sts=2 sw=2 et
