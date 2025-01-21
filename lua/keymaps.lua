@@ -48,6 +48,5 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 -- Shortcut to exit edit mode
 -- { noremap = true, silent = true } ensures the mapping is non-recursive and does not produce extra output.
 -- vim.opt.timeoutlen = 300 can you set the time for jj to get triggered
-vim.opt.timeoutlen = 100
 vim.api.nvim_set_keymap('i', 'jj', '<Esc>', { noremap = true, silent = true })
 -- vim: ts=2 sts=2 sw=2 et
