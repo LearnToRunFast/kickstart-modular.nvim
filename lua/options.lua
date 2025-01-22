@@ -60,4 +60,15 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- use space replace tab
+vim.opt.expandtab = true
+
+-- one tab 2 space
+vim.opt.tabstop = 2
+
+-- auto indent use 2 space
+vim.opt.shiftwidth = 2
+
+-- use smart indent
+vim.opt.smartindent = true
 -- vim: ts=2 sts=2 sw=2 et

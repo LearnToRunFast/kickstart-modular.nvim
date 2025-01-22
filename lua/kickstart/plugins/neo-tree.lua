@@ -16,6 +16,7 @@ return {
   opts = {
     filesystem = {
       window = {
+      follow_current_file = true, -- 自动跟随当前文件
         mappings = {
           ['\\'] = 'close_window',
         },
